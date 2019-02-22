@@ -19,6 +19,7 @@ RUN \
 RUN \
   apt-get install -y libstdc++6 && \
   apt-get install -y make && \
+  apt-get install -y gcc && \
   rm -rf /var/lib/apt/lists/*
 
 
